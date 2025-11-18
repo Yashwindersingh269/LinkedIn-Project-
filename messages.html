@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - LinkdIn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="brand-text">LinkedIn</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="jobs.html" class="nav-link">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="network.html" class="nav-link">Network</a>
+                </li>
+                <li class="nav-item">
+                    <a href="messages.html" class="nav-link active">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-messages">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Professional Messaging</h1>
+                <p class="hero-subtitle">Connect with colleagues, mentors, and opportunities through meaningful conversations. Build relationships that advance your career.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Messaging Interface -->
+    <section class="messaging-interface">
+        <div class="container">
+            <div class="messaging-grid">
+                <!-- Conversations List -->
+                <aside class="conversations-sidebar">
+                    <div class="messaging-header">
+                        <h2 class="messaging-title">Conversations</h2>
+                        <button class="btn btn-primary btn-new-message">+ New Message</button>
+                    </div>
+                    <div class="conversations-search">
+                        <input type="text" class="search-input" placeholder="Search conversations...">
+                    </div>
+                    <div class="conversations-list">
+                        <!-- Conversation Item 1 -->
+                        <div class="conversation-item active">
+                            <div class="conversation-avatar"><img src="https://via.placeholder.com/48x48/0077b5/ffffff?text=AB" alt="Alice Brown" class="conversation-avatar-img"></div>
+                            <div class="conversation-info">
+                                <div class="conversation-header">
+                                    <h4 class="conversation-name">Alice Brown</h4>
+                                    <span class="conversation-time">2m</span>
+                                </div>
+                                <p class="conversation-preview">Thanks for the introduction! I really appreciate your help with this opportunity.</p>
+                                <div class="conversation-meta">
+                                    <span class="unread-count">2</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Conversation Item 2 -->
+                        <div class="conversation-item">
+                            <div class="conversation-avatar"><img src="https://via.placeholder.com/48x48/00a0dc/ffffff?text=DW" alt="David Wilson" class="conversation-avatar-img"></div>
+                            <div class="conversation-info">
+                                <div class="conversation-header">
+                                    <h4 class="conversation-name">David Wilson</h4>
+                                    <span class="conversation-time">1h</span>
+                                </div>
+                                <p class="conversation-preview">Let's schedule a call next week to discuss the project requirements.</p>
+                            </div>
+                        </div>
+
+                        <!-- Conversation Item 3 -->
+                        <div class="conversation-item">
+                            <div class="conversation-avatar"><img src="https://via.placeholder.com/48x48/ff6b6b/ffffff?text=EJ" alt="Emma Jones" class="conversation-avatar-img"></div>
+                            <div class="conversation-info">
+                                <div class="conversation-header">
+                                    <h4 class="conversation-name">Emma Jones</h4>
+                                    <span class="conversation-time">3h</span>
+                                </div>
+                                <p class="conversation-preview">Great meeting you at the conference! I'd love to continue our discussion about UX trends.</p>
+                            </div>
+                        </div>
+
+                        <!-- Conversation Item 4 -->
+                        <div class="conversation-item">
+                            <div class="conversation-avatar"><img src="https://via.placeholder.com/48x48/4ecdc4/ffffff?text=MK" alt="Michael Kim" class="conversation-avatar-img"></div>
+                            <div class="conversation-info">
+                                <div class="conversation-header">
+                                    <h4 class="conversation-name">Michael Kim</h4>
+                                    <span class="conversation-time">Yesterday</span>
+                                </div>
+                                <p class="conversation-preview">The job posting looks perfect for my skills. Can you provide more details about the team?</p>
+                            </div>
+                        </div>
+
+                        <!-- Conversation Item 5 -->
+                        <div class="conversation-item">
+                            <div class="conversation-avatar"><img src="https://via.placeholder.com/48x48/45b7d1/ffffff?text=SG" alt="Sarah Green" class="conversation-avatar-img"></div>
+                            <div class="conversation-info">
+                                <div class="conversation-header">
+                                    <h4 class="conversation-name">Sarah Green</h4>
+                                    <span class="conversation-time">2d</span>
+                                </div>
+                                <p class="conversation-preview">Congratulations on your promotion! Well deserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Chat Area -->
+                <main class="chat-area">
+                    <!-- Chat Header -->
+                    <div class="chat-header">
+                        <div class="chat-partner">
+                            <div class="chat-partner-avatar"><img src="https://via.placeholder.com/48x48/0077b5/ffffff?text=AB" alt="Alice Brown" class="chat-partner-avatar-img"></div>
+                            <div class="chat-partner-info">
+                                <h3 class="chat-partner-name">Alice Brown</h3>
+                                <p class="chat-partner-status">Active now</p>
+                            </div>
+                        </div>
+                        <div class="chat-actions">
+                            <button class="btn btn-icon">📞</button>
+                            <button class="btn btn-icon">📹</button>
+                            <button class="btn btn-icon">⚙️</button>
+                        </div>
+                    </div>
+
+                    <!-- Chat Messages -->
+                    <div class="chat-messages">
+                        <!-- Message 1 -->
+                        <div class="message received">
+                            <div class="message-content">
+                                <p class="message-text">Hi! Thanks for reaching out about the project opportunity. I'm very interested in learning more about it.</p>
+                                <span class="message-time">10:23 AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 2 -->
+                        <div class="message sent">
+                            <div class="message-content">
+                                <p class="message-text">Hi Alice! I'm glad you're interested. It's a really exciting project that I think aligns well with your background in engineering leadership.</p>
+                                <span class="message-time">10:25 AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 3 -->
+                        <div class="message sent">
+                            <div class="message-content">
+                                <p class="message-text">We're looking for someone to lead a team of developers on a new fintech platform. The role involves both technical leadership and stakeholder management.</p>
+                                <span class="message-time">10:25 AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 4 -->
+                        <div class="message received">
+                            <div class="message-content">
+                                <p class="message-text">That sounds like a perfect fit! I have 8 years of experience in fintech and have led teams of up to 15 developers. Can you tell me more about the company culture and growth opportunities?</p>
+                                <span class="message-time">10:28 AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 5 -->
+                        <div class="message sent">
+                            <div class="message-content">
+                                <p class="message-text">Absolutely! The company has a great culture focused on innovation and work-life balance. They offer excellent benefits and clear career progression paths. Would you be available for a call this week to discuss further?</p>
+                                <span class="message-time">10:30 AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 6 -->
+                        <div class="message received">
+                            <div class="message-content">
+                                <p class="message-text">Thanks for the introduction! I really appreciate your help with this opportunity.</p>
+                                <span class="message-time">10:32 AM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Message Input -->
+                    <div class="message-input-container">
+                        <div class="message-input-wrapper">
+                            <button class="btn btn-icon">📎</button>
+                            <input type="text" class="message-input" placeholder="Type your message...">
+                            <button class="btn btn-icon">😊</button>
+                            <button class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">LinkdIn</h3>
+                    <p class="footer-description">The professional network that connects talent with opportunity.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="jobs.html" class="footer-link">Jobs</a></li>
+                        <li><a href="network.html" class="footer-link">Network</a></li>
+                        <li><a href="help.html" class="footer-link">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:support@linkdin.com" class="footer-link">support@linkdin.com</a></li>
+                        <li><a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a></li>
+                        <li><span class="footer-text">123 Business Ave, Suite 100</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 LinkdIn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
