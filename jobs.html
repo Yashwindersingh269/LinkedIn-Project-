@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - LinkdIn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="brand-text">LinkedIn</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="jobs.html" class="nav-link active">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="network.html" class="nav-link">Network</a>
+                </li>
+                <li class="nav-item">
+                    <a href="messages.html" class="nav-link">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-jobs">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Find Your Dream Job</h1>
+                <p class="hero-subtitle">Discover thousands of opportunities from top companies. Whether you're looking for your next role or hiring talent, LinkdIn connects you with the right opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Search Section -->
+    <section class="job-search">
+        <div class="container">
+            <div class="search-container">
+                <h2 class="section-title">Search Jobs</h2>
+                <div class="search-filters">
+                    <div class="search-row">
+                        <div class="search-group">
+                            <label for="job-title" class="search-label">Job Title, Keywords, or Company</label>
+                            <input type="text" id="job-title" class="search-input" placeholder="e.g., Software Engineer, Marketing Manager">
+                        </div>
+                        <div class="search-group">
+                            <label for="job-location" class="search-label">Location</label>
+                            <input type="text" id="job-location" class="search-input" placeholder="e.g., San Francisco, CA">
+                        </div>
+                        <button class="btn btn-primary search-btn">🔍 Search Jobs</button>
+                    </div>
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label for="job-type" class="filter-label">Job Type</label>
+                            <select id="job-type" class="filter-select">
+                                <option value="">All Types</option>
+                                <option value="full-time">Full-time</option>
+                                <option value="part-time">Part-time</option>
+                                <option value="contract">Contract</option>
+                                <option value="internship">Internship</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="experience-level" class="filter-label">Experience Level</label>
+                            <select id="experience-level" class="filter-select">
+                                <option value="">All Levels</option>
+                                <option value="entry">Entry Level</option>
+                                <option value="mid">Mid Level</option>
+                                <option value="senior">Senior Level</option>
+                                <option value="executive">Executive</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="remote-option" class="filter-label">Remote Options</label>
+                            <select id="remote-option" class="filter-select">
+                                <option value="">All Options</option>
+                                <option value="remote">Remote Only</option>
+                                <option value="hybrid">Hybrid</option>
+                                <option value="onsite">On-site Only</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="job-listings">
+        <div class="container">
+            <div class="listings-header">
+                <h2 class="section-title">Featured Jobs</h2>
+                <p class="listings-count">Showing 12 of 2,847 jobs</p>
+            </div>
+            <div class="job-listings-grid">
+                <!-- Job Card 1 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/0077b5/ffffff?text=TC" alt="TechCorp" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">Senior Software Engineer</h3>
+                            <p class="company-name">TechCorp</p>
+                            <p class="job-location">San Francisco, CA • Remote</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-featured">Featured</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">We are looking for an experienced Software Engineer to join our growing team. You will be responsible for building scalable web applications and mentoring junior developers.</p>
+                        <div class="job-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$120k - $180k</span>
+                            <span class="job-type">Full-time</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Card 2 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/00a0dc/ffffff?text=DS" alt="DataSoft" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">Data Scientist</h3>
+                            <p class="company-name">DataSoft</p>
+                            <p class="job-location">New York, NY • Hybrid</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-new">New</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">Join our data science team to build predictive models and derive insights from large datasets. Experience with Python, R, and machine learning required.</p>
+                        <div class="job-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">R</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$100k - $150k</span>
+                            <span class="job-type">Full-time</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Card 3 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/ff6b6b/ffffff?text=UX" alt="UX Studio" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">UX/UI Designer</h3>
+                            <p class="company-name">UX Studio</p>
+                            <p class="job-location">Los Angeles, CA • Remote</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-urgent">Urgent</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">Creative UX/UI Designer needed to design beautiful and functional user interfaces. Must have experience with Figma, Sketch, and user research methodologies.</p>
+                        <div class="job-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Sketch</span>
+                            <span class="tag">User Research</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$80k - $120k</span>
+                            <span class="job-type">Contract</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Card 4 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/4ecdc4/ffffff?text=MH" alt="MedHealth" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">Product Manager</h3>
+                            <p class="company-name">MedHealth</p>
+                            <p class="job-location">Boston, MA • On-site</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-hot">Hot</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">Lead product strategy and roadmap for healthcare technology solutions. Experience in healthcare domain and agile methodologies preferred.</p>
+                        <div class="job-tags">
+                            <span class="tag">Product Strategy</span>
+                            <span class="tag">Agile</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Leadership</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$130k - $170k</span>
+                            <span class="job-type">Full-time</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Card 5 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/45b7d1/ffffff?text=FS" alt="FinanceSoft" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">Cybersecurity Analyst</h3>
+                            <p class="company-name">FinanceSoft</p>
+                            <p class="job-location">Chicago, IL • Hybrid</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-new">New</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">Protect financial systems from cyber threats. Experience with SIEM tools, incident response, and compliance frameworks required.</p>
+                        <div class="job-tags">
+                            <span class="tag">SIEM</span>
+                            <span class="tag">Incident Response</span>
+                            <span class="tag">Compliance</span>
+                            <span class="tag">Risk Assessment</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$95k - $135k</span>
+                            <span class="job-type">Full-time</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Card 6 -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="company-logo"><img src="https://via.placeholder.com/60x60/9c27b0/ffffff?text=EC" alt="EduCloud" class="company-logo-img"></div>
+                        <div class="job-info">
+                            <h3 class="job-title">Marketing Coordinator</h3>
+                            <p class="company-name">EduCloud</p>
+                            <p class="job-location">Austin, TX • Remote</p>
+                        </div>
+                        <div class="job-status">
+                            <span class="badge badge-featured">Featured</span>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <p class="job-description">Coordinate marketing campaigns and events for educational technology products. Strong communication and project management skills needed.</p>
+                        <div class="job-tags">
+                            <span class="tag">Marketing</span>
+                            <span class="tag">Events</span>
+                            <span class="tag">Content Creation</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="job-footer">
+                        <div class="job-meta">
+                            <span class="job-salary">$55k - $75k</span>
+                            <span class="job-type">Part-time</span>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn btn-outline">Save</button>
+                            <button class="btn btn-primary">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="btn btn-outline">Load More Jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Categories -->
+    <section class="job-categories">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Technology</h3>
+                    <p class="category-count">1,247 jobs</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📊</div>
+                    <h3 class="category-title">Data & Analytics</h3>
+                    <p class="category-count">892 jobs</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎨</div>
+                    <h3 class="category-title">Design</h3>
+                    <p class="category-count">634 jobs</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📈</div>
+                    <h3 class="category-title">Marketing</h3>
+                    <p class="category-count">756 jobs</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💼</div>
+                    <h3 class="category-title">Sales</h3>
+                    <p class="category-count">523 jobs</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🏥</div>
+                    <h3 class="category-title">Healthcare</h3>
+                    <p class="category-count">445 jobs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hiring Companies -->
+    <section class="hiring-companies">
+        <div class="container">
+            <h2 class="section-title">Top Companies Hiring</h2>
+            <div class="companies-grid">
+                <div class="company-card">
+                    <div class="company-logo-large"><img src="https://via.placeholder.com/80x80/0077b5/ffffff?text=TC" alt="TechCorp" class="company-logo-img"></div>
+                    <h3 class="company-name">TechCorp</h3>
+                    <p class="company-industry">Technology</p>
+                    <p class="company-jobs">24 open positions</p>
+                </div>
+                <div class="company-card">
+                    <div class="company-logo-large"><img src="https://via.placeholder.com/80x80/00a0dc/ffffff?text=DS" alt="DataSoft" class="company-logo-img"></div>
+                    <h3 class="company-name">DataSoft</h3>
+                    <p class="company-industry">Data Analytics</p>
+                    <p class="company-jobs">18 open positions</p>
+                </div>
+                <div class="company-card">
+                    <div class="company-logo-large"><img src="https://via.placeholder.com/80x80/ff6b6b/ffffff?text=UX" alt="UX Studio" class="company-logo-img"></div>
+                    <h3 class="company-name">UX Studio</h3>
+                    <p class="company-industry">Design & Creative</p>
+                    <p class="company-jobs">12 open positions</p>
+                </div>
+                <div class="company-card">
+                    <div class="company-logo-large"><img src="https://via.placeholder.com/80x80/4ecdc4/ffffff?text=MH" alt="MedHealth" class="company-logo-img"></div>
+                    <h3 class="company-name">MedHealth</h3>
+                    <p class="company-industry">Healthcare</p>
+                    <p class="company-jobs">31 open positions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Seeker Resources -->
+    <section class="job-resources">
+        <div class="container">
+            <h2 class="section-title">Job Seeker Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">📝</div>
+                    <h3 class="resource-title">Resume Builder</h3>
+                    <p class="resource-description">Create a professional resume that stands out to employers.</p>
+                    <a href="#" class="resource-link">Get Started →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🎯</div>
+                    <h3 class="resource-title">Interview Prep</h3>
+                    <p class="resource-description">Practice common interview questions and improve your presentation skills.</p>
+                    <a href="#" class="resource-link">Practice Now →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📊</div>
+                    <h3 class="resource-title">Salary Insights</h3>
+                    <p class="resource-description">Research market rates and negotiate your compensation effectively.</p>
+                    <a href="#" class="resource-link">Explore Salaries →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🚀</div>
+                    <h3 class="resource-title">Career Advice</h3>
+                    <p class="resource-description">Get expert tips on career development and professional growth.</p>
+                    <a href="#" class="resource-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">LinkdIn</h3>
+                    <p class="footer-description">The professional network that connects talent with opportunity.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="jobs.html" class="footer-link">Jobs</a></li>
+                        <li><a href="network.html" class="footer-link">Network</a></li>
+                        <li><a href="help.html" class="footer-link">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:support@linkdin.com" class="footer-link">support@linkdin.com</a></li>
+                        <li><a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a></li>
+                        <li><span class="footer-text">123 Business Ave, Suite 100</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 LinkdIn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
