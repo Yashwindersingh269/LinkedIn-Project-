@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - LinkdIn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="brand-text">LinkedIn</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="jobs.html" class="nav-link">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="network.html" class="nav-link">Network</a>
+                </li>
+                <li class="nav-item">
+                    <a href="messages.html" class="nav-link">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="feed-container">
+        <div class="feed-wrapper">
+            <!-- Left Sidebar -->
+            <aside class="feed-sidebar">
+                <div class="sidebar-card">
+                    <div class="profile-header">
+                        <div class="profile-banner"></div>
+                        <div class="profile-info">
+                            <div class="profile-avatar"><img src="https://via.placeholder.com/80x80/0077b5/ffffff?text=JD" alt="John Doe" class="avatar-img"></div>
+                            <h3 class="profile-name">John Doe</h3>
+                            <p class="profile-title">Senior Software Engineer</p>
+                            <p class="profile-location">San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">847</span>
+                            <span class="stat-label">Connections</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">23</span>
+                            <span class="stat-label">Profile Views</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4 class="sidebar-title">Trending</h4>
+                    <ul class="trending-list">
+                        <li class="trending-item">
+                            <span class="trending-hashtag">#ArtificialIntelligence</span>
+                            <span class="trending-count">12.3k posts</span>
+                        </li>
+                        <li class="trending-item">
+                            <span class="trending-hashtag">#RemoteWork</span>
+                            <span class="trending-count">8.7k posts</span>
+                        </li>
+                        <li class="trending-item">
+                            <span class="trending-hashtag">#CareerGrowth</span>
+                            <span class="trending-count">6.2k posts</span>
+                        </li>
+                        <li class="trending-item">
+                            <span class="trending-hashtag">#TechJobs</span>
+                            <span class="trending-count">4.8k posts</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Feed -->
+            <section class="feed-main">
+                <!-- Post Composer -->
+                <div class="post-composer">
+                    <div class="composer-header">
+                        <div class="composer-avatar"><img src="https://via.placeholder.com/48x48/0077b5/ffffff?text=JD" alt="John Doe" class="avatar-img"></div>
+                        <input type="text" class="composer-input" placeholder="Share your professional thoughts...">
+                    </div>
+                    <div class="composer-actions">
+                        <button class="composer-btn">📝 Post</button>
+                        <button class="composer-btn">📷 Photo</button>
+                        <button class="composer-btn">📊 Poll</button>
+                    </div>
+                </div>
+
+                <!-- Feed Posts -->
+                <article class="feed-post">
+                    <div class="post-header">
+                        <div class="post-avatar"><img src="https://via.placeholder.com/56x56/00a0dc/ffffff?text=SJ" alt="Sarah Johnson" class="avatar-img"></div>
+                        <div class="post-info">
+                            <h4 class="post-name">Sarah Johnson</h4>
+                            <p class="post-title">Product Manager at TechCorp</p>
+                            <p class="post-time">2 hours ago • 🌍</p>
+                        </div>
+                        <button class="post-menu">⋯</button>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Excited to announce that our team just launched a new feature that will help thousands of users streamline their workflow! 🚀</p>
+                        <p class="post-text">After months of research, user interviews, and iterative development, we're finally live. This is why I love working in product - turning user pain points into solutions that make a real difference.</p>
+                        <p class="post-hashtags">#ProductLaunch #UserExperience #TeamWork #Innovation</p>
+                    </div>
+                    <div class="post-stats">
+                        <span class="post-likes">👍 124</span>
+                        <span class="post-comments">💬 18</span>
+                        <span class="post-shares">🔄 7</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="action-btn">👍 Like</button>
+                        <button class="action-btn">💬 Comment</button>
+                        <button class="action-btn">🔄 Share</button>
+                        <button class="action-btn">✉️ Message</button>
+                    </div>
+                </article>
+
+                <article class="feed-post">
+                    <div class="post-header">
+                        <div class="post-avatar"><img src="https://via.placeholder.com/56x56/0077b5/ffffff?text=MB" alt="Michael Brown" class="avatar-img"></div>
+                        <div class="post-info">
+                            <h4 class="post-name">Michael Brown</h4>
+                            <p class="post-title">Senior Software Engineer at StartupXYZ</p>
+                            <p class="post-time">5 hours ago • 🏢</p>
+                        </div>
+                        <button class="post-menu">⋯</button>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Just completed a 6-month intensive course on Machine Learning and AI! 🎓</p>
+                        <p class="post-text">The field is evolving so rapidly, and I'm amazed by the possibilities. Already implementing some of the concepts in our current project, and the results are promising. Looking forward to sharing more insights soon!</p>
+                        <p class="post-hashtags">#MachineLearning #AI #ContinuousLearning #TechCareer</p>
+                    </div>
+                    <div class="post-stats">
+                        <span class="post-likes">👍 89</span>
+                        <span class="post-comments">💬 12</span>
+                        <span class="post-shares">🔄 4</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="action-btn">👍 Like</button>
+                        <button class="action-btn">💬 Comment</button>
+                        <button class="action-btn">🔄 Share</button>
+                        <button class="action-btn">✉️ Message</button>
+                    </div>
+                </article>
+
+                <article class="feed-post">
+                    <div class="post-header">
+                        <div class="post-avatar"><img src="https://via.placeholder.com/56x56/00c851/ffffff?text=EW" alt="Emma Wilson" class="avatar-img"></div>
+                        <div class="post-info">
+                            <h4 class="post-name">Emma Wilson</h4>
+                            <p class="post-title">HR Director at GlobalTech</p>
+                            <p class="post-time">1 day ago • 📋</p>
+                        </div>
+                        <button class="post-menu">⋯</button>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">🎯 We're hiring! Looking for a talented Frontend Developer to join our growing team.</p>
+                        <p class="post-text">Requirements: 3+ years React experience, strong CSS skills, team player mentality. We offer competitive salary, remote work options, and excellent benefits. DM me if interested or tag someone who might be! 📩</p>
+                        <p class="post-hashtags">#Hiring #Frontend #React #RemoteWork #TechJobs</p>
+                    </div>
+                    <div class="post-stats">
+                        <span class="post-likes">👍 256</span>
+                        <span class="post-comments">💬 34</span>
+                        <span class="post-shares">🔄 28</span>
+                    </div>
+                    <div class="post-actions">
+                        <button class="action-btn">👍 Like</button>
+                        <button class="action-btn">💬 Comment</button>
+                        <button class="action-btn">🔄 Share</button>
+                        <button class="action-btn">✉️ Message</button>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Right Sidebar -->
+            <aside class="feed-sidebar-right">
+                <div class="sidebar-card">
+                    <h4 class="sidebar-title">People You May Know</h4>
+                    <ul class="people-list">
+                        <li class="people-item">
+                            <div class="people-avatar"><img src="https://via.placeholder.com/48x48/ff6b6b/ffffff?text=AL" alt="Alice Lee" class="avatar-img"></div>
+                            <div class="people-info">
+                                <h5 class="people-name">Alice Lee</h5>
+                                <p class="people-title">UX Designer</p>
+                            </div>
+                            <button class="connect-btn">Connect</button>
+                        </li>
+                        <li class="people-item">
+                            <div class="people-avatar"><img src="https://via.placeholder.com/48x48/4ecdc4/ffffff?text=RC" alt="Robert Chen" class="avatar-img"></div>
+                            <div class="people-info">
+                                <h5 class="people-name">Robert Chen</h5>
+                                <p class="people-title">Data Scientist</p>
+                            </div>
+                            <button class="connect-btn">Connect</button>
+                        </li>
+                        <li class="people-item">
+                            <div class="people-avatar"><img src="https://via.placeholder.com/48x48/45b7d1/ffffff?text=JD" alt="Jennifer Davis" class="avatar-img"></div>
+                            <div class="people-info">
+                                <h5 class="people-name">Jennifer Davis</h5>
+                                <p class="people-title">Marketing Manager</p>
+                            </div>
+                            <button class="connect-btn">Connect</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4 class="sidebar-title">Suggested for You</h4>
+                    <ul class="suggested-list">
+                        <li class="suggested-item">
+                            <a href="#" class="suggested-link">⭐ How to Ace Your Next Technical Interview</a>
+                        </li>
+                        <li class="suggested-item">
+                            <a href="#" class="suggested-link">📝 Building a Strong Personal Brand Online</a>
+                        </li>
+                        <li class="suggested-item">
+                            <a href="#" class="suggested-link">🚀 Remote Work Best Practices</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">LinkdIn</h3>
+                    <p class="footer-description">The professional network that connects talent with opportunity.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="jobs.html" class="footer-link">Jobs</a></li>
+                        <li><a href="network.html" class="footer-link">Network</a></li>
+                        <li><a href="help.html" class="footer-link">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:support@linkdin.com" class="footer-link">support@linkdin.com</a></li>
+                        <li><a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a></li>
+                        <li><span class="footer-text">123 Business Ave, Suite 100</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 LinkdIn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
